@@ -1,0 +1,15 @@
+{
+  "name": "service_player",
+  "version": "0.0.1",
+  "description": "Dummy service for an integration test demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Max Dietrich",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^15.2.0",
+    "hapi-status": "^2.1.0"
+  }
+}
