@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "hapi": "^15.2.0",
-    "hapi-status": "^2.1.0"
+    "hapi-status": "^2.1.0",
+    "q-io": "^1.13.2"
   }
 }
