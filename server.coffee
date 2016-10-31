@@ -20,7 +20,7 @@ server.route(
     method: 'POST'
     path: '/player'
     handler: (request, reply) ->
-      body = JSON.parse( request.payload.toString() )
+      body = request.payload
       players[body.name] = body
       reply({message: "OK"})
   }
